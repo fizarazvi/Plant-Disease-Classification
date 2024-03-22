@@ -1,0 +1,315 @@
+=================================================================
+Layer (type:depth-idx)                   Param #
+=================================================================
+Inception3                               --
+├─BasicConv2d: 1-1                       --
+│    └─Conv2d: 2-1                       864
+│    └─BatchNorm2d: 2-2                  64
+├─BasicConv2d: 1-2                       --
+│    └─Conv2d: 2-3                       9,216
+│    └─BatchNorm2d: 2-4                  64
+├─BasicConv2d: 1-3                       --
+│    └─Conv2d: 2-5                       18,432
+│    └─BatchNorm2d: 2-6                  128
+├─MaxPool2d: 1-4                         --
+├─BasicConv2d: 1-5                       --
+│    └─Conv2d: 2-7                       5,120
+│    └─BatchNorm2d: 2-8                  160
+├─BasicConv2d: 1-6                       --
+│    └─Conv2d: 2-9                       138,240
+│    └─BatchNorm2d: 2-10                 384
+├─MaxPool2d: 1-7                         --
+├─InceptionA: 1-8                        --
+│    └─BasicConv2d: 2-11                 --
+│    │    └─Conv2d: 3-1                  12,288
+│    │    └─BatchNorm2d: 3-2             128
+│    └─BasicConv2d: 2-12                 --
+│    │    └─Conv2d: 3-3                  9,216
+│    │    └─BatchNorm2d: 3-4             96
+│    └─BasicConv2d: 2-13                 --
+│    │    └─Conv2d: 3-5                  76,800
+│    │    └─BatchNorm2d: 3-6             128
+│    └─BasicConv2d: 2-14                 --
+│    │    └─Conv2d: 3-7                  12,288
+│    │    └─BatchNorm2d: 3-8             128
+│    └─BasicConv2d: 2-15                 --
+│    │    └─Conv2d: 3-9                  55,296
+│    │    └─BatchNorm2d: 3-10            192
+│    └─BasicConv2d: 2-16                 --
+│    │    └─Conv2d: 3-11                 82,944
+│    │    └─BatchNorm2d: 3-12            192
+│    └─BasicConv2d: 2-17                 --
+│    │    └─Conv2d: 3-13                 6,144
+│    │    └─BatchNorm2d: 3-14            64
+├─InceptionA: 1-9                        --
+│    └─BasicConv2d: 2-18                 --
+│    │    └─Conv2d: 3-15                 16,384
+│    │    └─BatchNorm2d: 3-16            128
+│    └─BasicConv2d: 2-19                 --
+│    │    └─Conv2d: 3-17                 12,288
+│    │    └─BatchNorm2d: 3-18            96
+│    └─BasicConv2d: 2-20                 --
+│    │    └─Conv2d: 3-19                 76,800
+│    │    └─BatchNorm2d: 3-20            128
+│    └─BasicConv2d: 2-21                 --
+│    │    └─Conv2d: 3-21                 16,384
+│    │    └─BatchNorm2d: 3-22            128
+│    └─BasicConv2d: 2-22                 --
+│    │    └─Conv2d: 3-23                 55,296
+│    │    └─BatchNorm2d: 3-24            192
+│    └─BasicConv2d: 2-23                 --
+│    │    └─Conv2d: 3-25                 82,944
+│    │    └─BatchNorm2d: 3-26            192
+│    └─BasicConv2d: 2-24                 --
+│    │    └─Conv2d: 3-27                 16,384
+│    │    └─BatchNorm2d: 3-28            128
+├─InceptionA: 1-10                       --
+│    └─BasicConv2d: 2-25                 --
+│    │    └─Conv2d: 3-29                 18,432
+│    │    └─BatchNorm2d: 3-30            128
+│    └─BasicConv2d: 2-26                 --
+│    │    └─Conv2d: 3-31                 13,824
+│    │    └─BatchNorm2d: 3-32            96
+│    └─BasicConv2d: 2-27                 --
+│    │    └─Conv2d: 3-33                 76,800
+│    │    └─BatchNorm2d: 3-34            128
+│    └─BasicConv2d: 2-28                 --
+│    │    └─Conv2d: 3-35                 18,432
+│    │    └─BatchNorm2d: 3-36            128
+│    └─BasicConv2d: 2-29                 --
+│    │    └─Conv2d: 3-37                 55,296
+│    │    └─BatchNorm2d: 3-38            192
+│    └─BasicConv2d: 2-30                 --
+│    │    └─Conv2d: 3-39                 82,944
+│    │    └─BatchNorm2d: 3-40            192
+│    └─BasicConv2d: 2-31                 --
+│    │    └─Conv2d: 3-41                 18,432
+│    │    └─BatchNorm2d: 3-42            128
+├─InceptionB: 1-11                       --
+│    └─BasicConv2d: 2-32                 --
+│    │    └─Conv2d: 3-43                 995,328
+│    │    └─BatchNorm2d: 3-44            768
+│    └─BasicConv2d: 2-33                 --
+│    │    └─Conv2d: 3-45                 18,432
+│    │    └─BatchNorm2d: 3-46            128
+│    └─BasicConv2d: 2-34                 --
+│    │    └─Conv2d: 3-47                 55,296
+│    │    └─BatchNorm2d: 3-48            192
+│    └─BasicConv2d: 2-35                 --
+│    │    └─Conv2d: 3-49                 82,944
+│    │    └─BatchNorm2d: 3-50            192
+├─InceptionC: 1-12                       --
+│    └─BasicConv2d: 2-36                 --
+│    │    └─Conv2d: 3-51                 147,456
+│    │    └─BatchNorm2d: 3-52            384
+│    └─BasicConv2d: 2-37                 --
+│    │    └─Conv2d: 3-53                 98,304
+│    │    └─BatchNorm2d: 3-54            256
+│    └─BasicConv2d: 2-38                 --
+│    │    └─Conv2d: 3-55                 114,688
+│    │    └─BatchNorm2d: 3-56            256
+│    └─BasicConv2d: 2-39                 --
+│    │    └─Conv2d: 3-57                 172,032
+│    │    └─BatchNorm2d: 3-58            384
+│    └─BasicConv2d: 2-40                 --
+│    │    └─Conv2d: 3-59                 98,304
+│    │    └─BatchNorm2d: 3-60            256
+│    └─BasicConv2d: 2-41                 --
+│    │    └─Conv2d: 3-61                 114,688
+│    │    └─BatchNorm2d: 3-62            256
+│    └─BasicConv2d: 2-42                 --
+│    │    └─Conv2d: 3-63                 114,688
+│    │    └─BatchNorm2d: 3-64            256
+│    └─BasicConv2d: 2-43                 --
+│    │    └─Conv2d: 3-65                 114,688
+│    │    └─BatchNorm2d: 3-66            256
+│    └─BasicConv2d: 2-44                 --
+│    │    └─Conv2d: 3-67                 172,032
+│    │    └─BatchNorm2d: 3-68            384
+│    └─BasicConv2d: 2-45                 --
+│    │    └─Conv2d: 3-69                 147,456
+│    │    └─BatchNorm2d: 3-70            384
+├─InceptionC: 1-13                       --
+│    └─BasicConv2d: 2-46                 --
+│    │    └─Conv2d: 3-71                 147,456
+│    │    └─BatchNorm2d: 3-72            384
+│    └─BasicConv2d: 2-47                 --
+│    │    └─Conv2d: 3-73                 122,880
+│    │    └─BatchNorm2d: 3-74            320
+│    └─BasicConv2d: 2-48                 --
+│    │    └─Conv2d: 3-75                 179,200
+│    │    └─BatchNorm2d: 3-76            320
+│    └─BasicConv2d: 2-49                 --
+│    │    └─Conv2d: 3-77                 215,040
+│    │    └─BatchNorm2d: 3-78            384
+│    └─BasicConv2d: 2-50                 --
+│    │    └─Conv2d: 3-79                 122,880
+│    │    └─BatchNorm2d: 3-80            320
+│    └─BasicConv2d: 2-51                 --
+│    │    └─Conv2d: 3-81                 179,200
+│    │    └─BatchNorm2d: 3-82            320
+│    └─BasicConv2d: 2-52                 --
+│    │    └─Conv2d: 3-83                 179,200
+│    │    └─BatchNorm2d: 3-84            320
+│    └─BasicConv2d: 2-53                 --
+│    │    └─Conv2d: 3-85                 179,200
+│    │    └─BatchNorm2d: 3-86            320
+│    └─BasicConv2d: 2-54                 --
+│    │    └─Conv2d: 3-87                 215,040
+│    │    └─BatchNorm2d: 3-88            384
+│    └─BasicConv2d: 2-55                 --
+│    │    └─Conv2d: 3-89                 147,456
+│    │    └─BatchNorm2d: 3-90            384
+├─InceptionC: 1-14                       --
+│    └─BasicConv2d: 2-56                 --
+│    │    └─Conv2d: 3-91                 147,456
+│    │    └─BatchNorm2d: 3-92            384
+│    └─BasicConv2d: 2-57                 --
+│    │    └─Conv2d: 3-93                 122,880
+│    │    └─BatchNorm2d: 3-94            320
+│    └─BasicConv2d: 2-58                 --
+│    │    └─Conv2d: 3-95                 179,200
+│    │    └─BatchNorm2d: 3-96            320
+│    └─BasicConv2d: 2-59                 --
+│    │    └─Conv2d: 3-97                 215,040
+│    │    └─BatchNorm2d: 3-98            384
+│    └─BasicConv2d: 2-60                 --
+│    │    └─Conv2d: 3-99                 122,880
+│    │    └─BatchNorm2d: 3-100           320
+│    └─BasicConv2d: 2-61                 --
+│    │    └─Conv2d: 3-101                179,200
+│    │    └─BatchNorm2d: 3-102           320
+│    └─BasicConv2d: 2-62                 --
+│    │    └─Conv2d: 3-103                179,200
+│    │    └─BatchNorm2d: 3-104           320
+│    └─BasicConv2d: 2-63                 --
+│    │    └─Conv2d: 3-105                179,200
+│    │    └─BatchNorm2d: 3-106           320
+│    └─BasicConv2d: 2-64                 --
+│    │    └─Conv2d: 3-107                215,040
+│    │    └─BatchNorm2d: 3-108           384
+│    └─BasicConv2d: 2-65                 --
+│    │    └─Conv2d: 3-109                147,456
+│    │    └─BatchNorm2d: 3-110           384
+├─InceptionC: 1-15                       --
+│    └─BasicConv2d: 2-66                 --
+│    │    └─Conv2d: 3-111                147,456
+│    │    └─BatchNorm2d: 3-112           384
+│    └─BasicConv2d: 2-67                 --
+│    │    └─Conv2d: 3-113                147,456
+│    │    └─BatchNorm2d: 3-114           384
+│    └─BasicConv2d: 2-68                 --
+│    │    └─Conv2d: 3-115                258,048
+│    │    └─BatchNorm2d: 3-116           384
+│    └─BasicConv2d: 2-69                 --
+│    │    └─Conv2d: 3-117                258,048
+│    │    └─BatchNorm2d: 3-118           384
+│    └─BasicConv2d: 2-70                 --
+│    │    └─Conv2d: 3-119                147,456
+│    │    └─BatchNorm2d: 3-120           384
+│    └─BasicConv2d: 2-71                 --
+│    │    └─Conv2d: 3-121                258,048
+│    │    └─BatchNorm2d: 3-122           384
+│    └─BasicConv2d: 2-72                 --
+│    │    └─Conv2d: 3-123                258,048
+│    │    └─BatchNorm2d: 3-124           384
+│    └─BasicConv2d: 2-73                 --
+│    │    └─Conv2d: 3-125                258,048
+│    │    └─BatchNorm2d: 3-126           384
+│    └─BasicConv2d: 2-74                 --
+│    │    └─Conv2d: 3-127                258,048
+│    │    └─BatchNorm2d: 3-128           384
+│    └─BasicConv2d: 2-75                 --
+│    │    └─Conv2d: 3-129                147,456
+│    │    └─BatchNorm2d: 3-130           384
+├─InceptionAux: 1-16                     --
+│    └─BasicConv2d: 2-76                 --
+│    │    └─Conv2d: 3-131                98,304
+│    │    └─BatchNorm2d: 3-132           256
+│    └─BasicConv2d: 2-77                 --
+│    │    └─Conv2d: 3-133                2,457,600
+│    │    └─BatchNorm2d: 3-134           1,536
+│    └─Linear: 2-78                      769,000
+├─InceptionD: 1-17                       --
+│    └─BasicConv2d: 2-79                 --
+│    │    └─Conv2d: 3-135                147,456
+│    │    └─BatchNorm2d: 3-136           384
+│    └─BasicConv2d: 2-80                 --
+│    │    └─Conv2d: 3-137                552,960
+│    │    └─BatchNorm2d: 3-138           640
+│    └─BasicConv2d: 2-81                 --
+│    │    └─Conv2d: 3-139                147,456
+│    │    └─BatchNorm2d: 3-140           384
+│    └─BasicConv2d: 2-82                 --
+│    │    └─Conv2d: 3-141                258,048
+│    │    └─BatchNorm2d: 3-142           384
+│    └─BasicConv2d: 2-83                 --
+│    │    └─Conv2d: 3-143                258,048
+│    │    └─BatchNorm2d: 3-144           384
+│    └─BasicConv2d: 2-84                 --
+│    │    └─Conv2d: 3-145                331,776
+│    │    └─BatchNorm2d: 3-146           384
+├─InceptionE: 1-18                       --
+│    └─BasicConv2d: 2-85                 --
+│    │    └─Conv2d: 3-147                409,600
+│    │    └─BatchNorm2d: 3-148           640
+│    └─BasicConv2d: 2-86                 --
+│    │    └─Conv2d: 3-149                491,520
+│    │    └─BatchNorm2d: 3-150           768
+│    └─BasicConv2d: 2-87                 --
+│    │    └─Conv2d: 3-151                442,368
+│    │    └─BatchNorm2d: 3-152           768
+│    └─BasicConv2d: 2-88                 --
+│    │    └─Conv2d: 3-153                442,368
+│    │    └─BatchNorm2d: 3-154           768
+│    └─BasicConv2d: 2-89                 --
+│    │    └─Conv2d: 3-155                573,440
+│    │    └─BatchNorm2d: 3-156           896
+│    └─BasicConv2d: 2-90                 --
+│    │    └─Conv2d: 3-157                1,548,288
+│    │    └─BatchNorm2d: 3-158           768
+│    └─BasicConv2d: 2-91                 --
+│    │    └─Conv2d: 3-159                442,368
+│    │    └─BatchNorm2d: 3-160           768
+│    └─BasicConv2d: 2-92                 --
+│    │    └─Conv2d: 3-161                442,368
+│    │    └─BatchNorm2d: 3-162           768
+│    └─BasicConv2d: 2-93                 --
+│    │    └─Conv2d: 3-163                245,760
+│    │    └─BatchNorm2d: 3-164           384
+├─InceptionE: 1-19                       --
+│    └─BasicConv2d: 2-94                 --
+│    │    └─Conv2d: 3-165                655,360
+│    │    └─BatchNorm2d: 3-166           640
+│    └─BasicConv2d: 2-95                 --
+│    │    └─Conv2d: 3-167                786,432
+│    │    └─BatchNorm2d: 3-168           768
+│    └─BasicConv2d: 2-96                 --
+│    │    └─Conv2d: 3-169                442,368
+│    │    └─BatchNorm2d: 3-170           768
+│    └─BasicConv2d: 2-97                 --
+│    │    └─Conv2d: 3-171                442,368
+│    │    └─BatchNorm2d: 3-172           768
+│    └─BasicConv2d: 2-98                 --
+│    │    └─Conv2d: 3-173                917,504
+│    │    └─BatchNorm2d: 3-174           896
+│    └─BasicConv2d: 2-99                 --
+│    │    └─Conv2d: 3-175                1,548,288
+│    │    └─BatchNorm2d: 3-176           768
+│    └─BasicConv2d: 2-100                --
+│    │    └─Conv2d: 3-177                442,368
+│    │    └─BatchNorm2d: 3-178           768
+│    └─BasicConv2d: 2-101                --
+│    │    └─Conv2d: 3-179                442,368
+│    │    └─BatchNorm2d: 3-180           768
+│    └─BasicConv2d: 2-102                --
+│    │    └─Conv2d: 3-181                393,216
+│    │    └─BatchNorm2d: 3-182           384
+├─AdaptiveAvgPool2d: 1-20                --
+├─Dropout: 1-21                          --
+├─Linear: 1-22                           8,196
+=================================================================
+Total params: 25,120,460
+Trainable params: 25,120,460
+Non-trainable params: 0
+=================================================================
