@@ -79,12 +79,14 @@ Install the requirements for the project.
 ## Train and validation of models
 The code for training and validating the models are present inside the respective model folder for the dataset. Along with that, a pretrained model files are also available in the name of ```.pth``` format. 
 
-## Contributors and Collaborators
+### Contributors
 
 - Dinesh Kumar Gopinathan, (yourEmail)
-- Sanjay Bharathi Subramanian, (yourEmail)
+- Sanjay Bharathi Subramanian, (sanjaystz98@gmail.com)
 - Fiza Razvi, (fizarazvi10@gmail.com)
 - Ramprakash Periyagaram Ganesan, (rampg23@gmail.com)
+
+### Collaborators
 - GitHub ID: mahdihosseini, (mahdi.hosseini@mail.utoronto.ca)
 - GitHub ID: ahmedalagha1418, (ahmedn.alagha@hotmail.com)
 
