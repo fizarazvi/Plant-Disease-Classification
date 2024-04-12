@@ -73,10 +73,13 @@ pip install requirement.txt
 - Change the directory path in the model that needs to be trained with.
 - Get the pretrained model and their weight and the run the notebook.
 
-## Contributors
+## Contributors and Collaborators
 
-- Dinesh Kumar Gopinathan
-- Sanjay Bharathi Subramanian
-- Fiza Razvi
-- Ramprakash Periyagaram Ganesan
+- Dinesh Kumar Gopinathan, (yourEmail)
+- Sanjay Bharathi Subramanian, (yourEmail)
+- Fiza Razvi, (yourEmail)
+- Ramprakash Periyagaram Ganesan, (rampg23@gmail.com)
+- GitHub ID: mahdihosseini, (mahdi.hosseini@mail.utoronto.ca)
+- GitHub ID: ahmedalagha1418, (ahmedn.alagha@hotmail.com)
+
 
