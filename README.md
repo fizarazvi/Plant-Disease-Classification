@@ -21,7 +21,7 @@ This project aims to conduct a comparative analysis of Convolutional Neural Netw
     │   ├── ..                         # respective model folders
     ├── Corn Maize                     # Dataset 3
     │   ├── ..                         # respective model folders
-    ├── report                         # Contains the plot and images of all the model
+    ├── report                         # Contains the plot and images of all the model along with the TSNE plot
     ├── requirement.txt                # library requirement
     ├── HP_tuning                      # results and code for hyperparameter tuning
     └── README.md
@@ -53,8 +53,6 @@ The following are the basic libraries that are required for the notebooks
 [torchvision-url]: https://pytorch.org/vision/
 [sklearn.js]: https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white
 [sklearn-url]: https://scikit-learn.org/stable/
-[tqdm.js]: https://img.shields.io/badge/tqdm-4B8BBE?style=for-the-badge&logo=python&logoColor=white
-[tqdm-url]: https://tqdm.github.io/
 [torchsummary.js]: https://img.shields.io/badge/torchsummary-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white
 [torchsummary-url]: https://github.com/sksq96/pytorch-summary
 [pandas.js]: https://img.shields.io/badge/pandas-150458?style=for-the-badge&logo=pandas&logoColor=white
@@ -69,9 +67,16 @@ For installing other dependencies, please run the following command
 ```
 pip install requirement.txt
 ```
+## How to run the project
 
-
-## Sample Dataset
+- To run the project, get the sample dataset from the following drive link.
+- Change the directory path in the model that needs to be trained with.
+- Get the pretrained model and their weight and the run the notebook.
 
 ## Contributors
+
+- Dinesh Kumar Gopinathan
+- Sanjay Bharathi Subramanian
+- Fiza Razvi
+- Ramprakash Periyagaram Ganesan
 
