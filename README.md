@@ -83,7 +83,7 @@ The code for training and validating the models are present inside the respectiv
 
 - Dinesh Kumar Gopinathan, (yourEmail)
 - Sanjay Bharathi Subramanian, (yourEmail)
-- Fiza Razvi, (yourEmail)
+- Fiza Razvi, (fizarazvi10@gmail.com)
 - Ramprakash Periyagaram Ganesan, (rampg23@gmail.com)
 - GitHub ID: mahdihosseini, (mahdi.hosseini@mail.utoronto.ca)
 - GitHub ID: ahmedalagha1418, (ahmedn.alagha@hotmail.com)
