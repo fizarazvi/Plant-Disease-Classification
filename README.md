@@ -13,17 +13,19 @@ This project aims to conduct a comparative analysis of Convolutional Neural Netw
 ## Folder Structure
     .
     ├── Plant Leaf                     # Dataset 1
-    │   ├── Inceptionv3                # Model 1
-        │   ├── model.ipynb      
-    │   ├── MobilenetV2                # Table of contents
-    │   ├── Resnet18                   # Table of contents
-    ├── Tomato Leaf                    # Dataset 2
     │   ├── ..                         # respective model folders
+    ├── Tomato Leaf                    # Dataset 2
+        ├── Inceptionv3                # Model 1
+        │   ├── inceptionV3.ipynb      # Model notebook     
+        │   ├── results                # contains all the plots and results of the model trained.  
+    │   ├── MobilenetV2               
+    │   ├── Resnet18                     
     ├── Corn Maize                     # Dataset 3
     │   ├── ..                         # respective model folders
-    ├── report                         # Contains the plot and images of all the model along with the TSNE plot
+    ├── report                         # Contains the project report along with the TSNE plot
     ├── requirement.txt                # library requirement
     ├── HP_tuning                      # results and code for hyperparameter tuning
+       │   ├── results                 # contains all the plots and results of the hyper parameter tuning trained.  
     └── README.md
 
 ## Requirements
