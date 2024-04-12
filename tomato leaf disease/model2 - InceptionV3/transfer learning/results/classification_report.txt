@@ -1,0 +1,50 @@
+Classifcation Report (Scratch)
+Test Accuracy: 0.8387
+Test Precision: 0.8299
+Test Recall: 0.8301
+Test F1 Score: 0.8288
+
+Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.79      0.84      0.81       361
+           1       0.77      0.82      0.80       321
+           2       0.79      0.67      0.72       416
+           3       0.89      0.87      0.88       378
+           4       0.79      0.74      0.76       359
+           5       0.89      0.93      0.91       221
+           6       0.88      0.86      0.87       239
+           7       0.94      0.94      0.94       249
+           8       0.94      0.95      0.95       286
+           9       0.86      0.97      0.91       392
+          10       0.59      0.53      0.56       120
+
+    accuracy                           0.84      3342
+   macro avg       0.83      0.83      0.83      3342
+weighted avg       0.84      0.84      0.84      3342
+
+
+Classification Report(Transfer)
+Test Accuracy: 0.9844
+Test Precision: 0.9859
+Test Recall: 0.9848
+Test F1 Score: 0.9853
+
+Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.97      0.98      0.97       361
+           1       0.97      0.97      0.97       321
+           2       0.99      0.99      0.99       416
+           3       0.99      1.00      0.99       378
+           4       0.97      0.96      0.97       359
+           5       1.00      0.99      0.99       221
+           6       0.99      1.00      0.99       239
+           7       0.99      1.00      1.00       249
+           8       1.00      0.98      0.99       286
+           9       0.99      1.00      0.99       392
+          10       0.99      0.98      0.99       120
+
+    accuracy                           0.98      3342
+   macro avg       0.99      0.98      0.99      3342
+weighted avg       0.98      0.98      0.98      3342
