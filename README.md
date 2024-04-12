@@ -69,9 +69,15 @@ pip install requirement.txt
 ```
 ## How to run the project
 
+Install the requirements for the project.
+
 - To run the project, get the sample dataset from the following drive link.
+
 - Change the directory path in the model that needs to be trained with.
 - Get the pretrained model and their weight and the run the notebook.
+
+## Train and validation of models
+The code for training and validating the models are present inside the respective model folder for the dataset. Along with that, a pretrained model files are also available in the name of ```.pth``` format. 
 
 ## Contributors and Collaborators
 
