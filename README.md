@@ -73,7 +73,7 @@ pip install requirement.txt
 
 Install the requirements for the project.
 
-- To run the project, get the sample dataset from the following drive link.
+- To run the project, get the sample dataset from the following link.
 
 - Change the directory path in the model that needs to be trained with.
 - Get the pretrained model and their weight and the run the notebook.
@@ -82,7 +82,11 @@ Install the requirements for the project.
 The code for training and validating the models are present inside the respective model folder for the dataset. Along with that, a pretrained model files are also available in the name of ```.pth``` format. 
 
 Video Presentation: 
+
 https://liveconcordia-my.sharepoint.com/:f:/g/personal/r_periya_live_concordia_ca/ElDlh9aNHQtHhcoD5qBYv3IBHQbahIUZxi2We766z-xeNQ?e=a2t2y7
+
+Sample dataset: 
+https://liveconcordia-my.sharepoint.com/:f:/g/personal/r_periya_live_concordia_ca/Et5CtiRbvi9DpGjmICP5ExcByKXrU9DFsbDXKfXIwB2kdw?e=IWdopc
 
 ### Contributors
 
