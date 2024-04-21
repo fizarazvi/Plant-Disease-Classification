@@ -81,6 +81,9 @@ Install the requirements for the project.
 ## Train and validation of models
 The code for training and validating the models are present inside the respective model folder for the dataset. Along with that, a pretrained model files are also available in the name of ```.pth``` format. 
 
+Video Presentation: 
+https://liveconcordia-my.sharepoint.com/:f:/g/personal/r_periya_live_concordia_ca/ElDlh9aNHQtHhcoD5qBYv3IBHQbahIUZxi2We766z-xeNQ?e=a2t2y7
+
 ### Contributors
 
 - Dinesh Kumar Gopinathan, (yourEmail)
