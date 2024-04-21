@@ -86,7 +86,7 @@ https://liveconcordia-my.sharepoint.com/:f:/g/personal/r_periya_live_concordia_c
 
 ### Contributors
 
-- Dinesh Kumar Gopinathan, (yourEmail)
+- Dinesh Kumar Gopinathan, (dineshkumar.gopinathan@mail.concordia.ca)
 - Sanjay Bharathi Subramanian, (sanjaystz98@gmail.com)
 - Fiza Razvi, (fizarazvi10@gmail.com)
 - Ramprakash Periyagaram Ganesan, (rampg23@gmail.com)
