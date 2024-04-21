@@ -7,8 +7,8 @@ This project aims to conduct a comparative analysis of Convolutional Neural Netw
 | Name  | size |  Link |
 | ------------- | ------------- | ------------- |
 | Plant Leaf Disease  |  1.5 Gb (61K Images)  | https://data.mendeley.com/datasets/tywbtsjrjv/1  |
- Tomato Leaf Disease  | 1 Gb (25K Images)  |  https://www.kaggle.com/datasets/ashishmotwani/tomato |
-| Corn Maize dataset  | 500 Mb (5k Images)  | https://www.kaggle.com/datasets/smaranjitghose/corn-or-maize-leaf-disease-dataset |
+ Tomato Leaf Disease  | 1 Gb (16K Images)  |  https://www.kaggle.com/datasets/ashishmotwani/tomato |
+| Corn Maize dataset  | 500 Mb (3.5k Images)  | https://www.kaggle.com/datasets/smaranjitghose/corn-or-maize-leaf-disease-dataset |
 
 ## Folder Structure
     .
@@ -91,9 +91,9 @@ https://liveconcordia-my.sharepoint.com/:f:/g/personal/r_periya_live_concordia_c
 ### Contributors
 
 - Dinesh Kumar Gopinathan, (dineshkumar.gopinathan@mail.concordia.ca)
-- Sanjay Bharathi Subramanian, (sanjaystz98@gmail.com)
-- Fiza Razvi, (fizarazvi10@gmail.com)
+- Fiza Altaf Razvi, (fizarazvi10@gmail.com)
 - Ramprakash Periyagaram Ganesan, (rampg23@gmail.com)
+- Sanjay Bharathi Subramanian, (sanjaystz98@gmail.com)
 
 ### Collaborators
 - GitHub ID: mahdihosseini, (mahdi.hosseini@mail.utoronto.ca)
