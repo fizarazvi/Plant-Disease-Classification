@@ -7,8 +7,8 @@ This project aims to conduct a comparative analysis of Convolutional Neural Netw
 | Name  | size |  Link |
 | ------------- | ------------- | ------------- |
 | Plant Leaf Disease  |  1.5 Gb (61K Images)  | https://data.mendeley.com/datasets/tywbtsjrjv/1  |
- Tomato Leaf Disease  | 1 Gb (25K Images)  | https://data.mendeley.com/datasets/tywbtsjrjv/1 |
-| Corn Maize dataset  | 500 Mb (5k Images)  | https://www.kaggle.com/datasets/ashishmotwani/tomato |
+ Tomato Leaf Disease  | 1 Gb (25K Images)  |  https://www.kaggle.com/datasets/ashishmotwani/tomato |
+| Corn Maize dataset  | 500 Mb (5k Images)  | https://www.kaggle.com/datasets/smaranjitghose/corn-or-maize-leaf-disease-dataset |
 
 ## Folder Structure
     .
